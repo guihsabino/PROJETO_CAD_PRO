@@ -8,7 +8,7 @@ efetuar venda
 
 excluir produto
 
-autorizar alteração de preço
+mensagem autorizar alteração de preço
 
 cadastrar produto
 
@@ -16,20 +16,20 @@ cadastrar vendedor
 
 alterar vendedor
 
-visualizar produto
+visualizar produto - OK
 
 tela inicial - OK
 
-vendas
+vendas - OK
 
-visualizar vendedor
+visualizar vendedor - OK
 
 excluir vendedor
 
 login - OK
 
-produtos
+produtos - OK
 
 excluir venda
 
-visualizar venda
+visualizar venda - OK
