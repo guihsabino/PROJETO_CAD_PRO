@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <h1>VENDAS</h1>
+    <h1>ALTERAR VENDA</h1>
 
     <!-- Barra de Navegação Lateral -->
     <nav id="menu" class=" navbar-light ">
@@ -34,66 +34,54 @@
             <li><a id="link-menu" class="nav-link navbar-brand" href="redireciona.html">Sair</a></li>
         </ul>
     </nav>
+    <!-- Seção das vendas -->
+    <label id="labelnum-venda">Número da Venda: </label>
+    <input type="text" id="num-venda">
+    <label id="labelvendedor-venda">Vendedor: </label>
+    <input type="text" id="vendedor-venda">
+    <label id="parcvendedor-venda">Parcelamento: </label>
+    <select id="parc-vendedor">
+        <option value="funcao">Selecione o método</option>
+        <option value="avista">COMISSÃO</option>
+        <option value="parcelado">VENDAS</option>
+    </select>
+    <label id="cod-item">Cod. Item: </label>
+    <input type="text" id="item-venda">
+    <label id="qntd-item">Quantidade: </label>
+    <input type="text" id="qntd-venda">
+    <button class="botao-add" id="add-venda">ADD</button>
 
-    <!-- Seção de tabela -->
-
-    <table id="tabela-vendas">
-        <thead id="thead-vendas">
+    <table>
+        <thead>
             <tr>
-                <th> COD. VENDA </th>
-                <th> VENDEDOR </th>
-                <th> DATA </th>
-                <th> VALOR TOTAL </th>
+                <th> ITEM </th>
+                <th> QUANTIDADE </th>
+                <th> VALOR </th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th class="cod_vendedor">000001</th>
-                <td>Joelma Mendes</td>
-                <td>25/10/2018</td>
-                <td>R$1530</td>
+                <th class="cod_item">1</th>
+                <td></td>
+                <td>Cano PVC de 2 metros</td>
             </tr>
             <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
+                <th class="cod_item">2</th>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
+                <th class="cod_item">3</th>
                 <td></td>
                 <td></td>
             </tr>
         </tbody>
-        <button class="botao-venda" id="efetuar-venda" onclick="window.location='efetuarVenda.html';">EFETUAR VENDA</button>
-        <button class="botao-venda" id="alterar" onclick="window.location='alterarVenda.html';">ALTERAR</button>
-        <button class="botao-venda" id="excluir" onclick="window.location='excluirVenda.html';">EXCLUIR</button>
     </table>
+    <label id="total-item">Total: </label>
+    <input type="text" id="total-venda" placeholder="R$XXX,XX">
+
+    <button class="botao" id="alterar-venda" onclick="window.location='vendas.html';">ALTERAR</button>
+    <button class="botao" id="cancelar-venda" onclick="window.location='vendas.html';">CANCELAR</button>
 </body>
 
 </html>
