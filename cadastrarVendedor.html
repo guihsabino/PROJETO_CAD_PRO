@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-    <title>Produtos | CADPRO</title>
+    <title>VENDEDORES | CADPRO</title>
     <meta charset="UTF-8">
     <link rel="icon" href="./imagens/logo-icon.jpeg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -26,11 +26,10 @@
                     CadPro
                 </a>
             </li>
-            <li><a id="link-menu" class="nav-link navbar-brand" href="html/index.html">Início</a></li>
+            <li><a id="link-menu" class="nav-link navbar-brand" href="index.html">Início</a></li>
             <li><a id="link-menu" class="nav-link navbar-brand" href="vendas.html">Vendas</a></li>
             <li><a id="link-menu" class="nav-link navbar-brand" href="vendedores.html">Vendedores</a></li>
             <li><a id="link-menu" class="nav-link navbar-brand" href="produtos.html">Produtos</a></li>
-            <li><a id="link-menu" class="nav-link navbar-brand" href="#">Estoque</a></li>
             <li><a id="link-menu" class="nav-link navbar-brand" href="#">Relatórios</a></li>
             <li><a id="link-menu" class="nav-link navbar-brand" href="#">Fechar Comissão</a></li>
             <li><a id="link-menu" class="nav-link navbar-brand" href="redireciona.html">Sair</a></li>
@@ -68,11 +67,13 @@
         <input type="datetime" id="input-datacad">
         <label id="comissao-vendedor">PORC. COMISSÃO</label>
         <input type="input" id="input-comissao">
+        <label id="senha-vendedor">SENHA</label>
+        <input type="input" id="input-senha">
 
     </section>
     <!-- Seção de Botões -->
-    <button class="botao" id="cadastrar">CADASTRAR</button>
-    <button class="botao" id="cancelar">CANCELAR</button>
+    <button class="botao" id="cadastrar" onclick="window.location='vendedores.html';">CADASTRAR</button>
+    <button class="botao" id="cancelar" onclick="window.location='vendedores.html';">CANCELAR</button>
 
 </body>
 

@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-    <title>INÍCIO | CADPRO</title>
+    <title>RELATORIOS | CADPRO</title>
     <meta charset="UTF-8">
     <link rel="icon" href="./imagens/logo-icon.jpeg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/vendas.css">
 </head>
 
 <body>
+    <h1>RELATÓRIOS</h1>
+
     <!-- Barra de Navegação Lateral -->
     <nav id="menu" class=" navbar-light ">
         <ul id="nav">
@@ -34,10 +36,25 @@
         </ul>
     </nav>
 
-    <!-- Seção para Rodapé -->
-    <footer>
-        <a>&copy; Garotos de Programa 2019</a>
-    </footer>
+    <!-- Selção de Relatórios -->
+    <label id="nome-vendedor">NOME VENDEDOR</label>
+    <input type="input" id="input-nome">
+
+    <!-- Seção de calendário -->
+    <section>
+        <label id="data-relatorio">DATA</label>
+        <input type="date" id="input-data">
+    </section>
+
+    <!-- Combo box -->
+    <select id="combo-vendedor">
+        <option value="funcao">Selecione a função</option>
+        <option value="comissao">COMISSÃO</option>
+        <option value="vendas">VENDAS</option>
+    </select>
+
+    <!-- Botões -->
+    <button class="botao" id="gerar">GERAR RELATÓRIO</button>
 </body>
 
 </html>
