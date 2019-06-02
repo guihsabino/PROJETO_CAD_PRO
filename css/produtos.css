@@ -58,6 +58,40 @@ table td {
     border: 1px solid #CCC;
 }
 
+#table-produto {
+    position: relative;
+    text-align: center;
+    left: 20em;
+    bottom: 26em;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+#table-produto thead {
+    background-color: rgba(71, 68, 68, 0.973);
+    text-align: center;
+    color: #FFF;
+}
+
+#table-produto th {
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+
+#table-produto tr {
+    border: 1px solid #CCC;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+}
+
+#table-produto td {
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+
 /* Seção de Botões */
 
 .botao {
