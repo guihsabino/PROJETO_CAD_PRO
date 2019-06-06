@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/excluirProduto.css">
+    <link rel="stylesheet" type="text/css" href="css/manipulacaoProduto.css">
 </head>
 
 <body>
@@ -36,28 +36,45 @@
     </nav>
 
     <!-- Seção de Campos Produto -->
-    <section>
+    <form id="section-cadastrar-produto" class="form-row">
 
-        <label id="cod-produto">COD. PRODUTO</label>
-        <input type="input" id="input-cod">
-        <label id="desc-produto">DESCRIÇÃO</label>
-        <input type="input" id="input-desc">
-        <label id="coduni-produto">COD. UNIDADE</label>
-        <input type="input" id="input-coduni">
-        <label id="codtipo-produto">COD. TIPO</label>
-        <input type="input" id="input-codtipo">
-        <label id="precocusto-produto">PREÇO CUSTO</label>
-        <input type="input" id="input-precocusto">
-        <label id="precovenda-produto">PREÇO VENDA</label>
-        <input type="input" id="input-precovenda">
-        <label id="qntd-produto">QUANTIDADE</label>
-        <input type="input" id="input-qntd">
-
-    </section>
+        <div class="col">
+            <label id="id-produto">ID PRODUTO</label>
+            <input type="input" id="input-id">
+        </div>
+        <div class="col">
+            <label id="cod-produto">COD. PRODUTO</label>
+            <input type="input" id="input-cod">
+        </div>
+        <div class="col">
+            <label id="desc-produto">DESCRIÇÃO</label>
+            <input type="input" id="input-desc">
+        </div>
+        <div class="col">
+            <label id="coduni-produto">COD. UNIDADE</label>
+            <input type="input" id="input-coduni">
+        </div>
+        <div class="col">
+            <label id="codtipo-produto">COD. TIPO</label>
+            <input type="input" id="input-codtipo">
+        </div>
+        <div class="col">
+            <label id="precocusto-produto">PREÇO CUSTO</label>
+            <input type="input" id="input-precocusto">
+        </div>
+        <div class="col">
+            <label id="precovenda-produto">PREÇO VENDA</label>
+            <input type="input" id="input-precovenda">
+        </div>
+        <div class="col">
+            <label id="qntd-produto">QUANTIDADE</label>
+            <p><input type="input" id="input-qntd">
+        </div>
+    </form>
     <!-- Seção de Botões -->
-    <button class="botao" id="cadastrar" onclick="window.location='produtos.html';">CADASTRAR</button>
-    <button class="botao" id="cancelar" onclick="window.location='produtos.html';">CANCELAR</button>
-
+    <section id="section-botoes">
+        <button class="botao" id="cadastrar" onclick="window.location='produtos.html';">CADASTRAR</button>
+        <button class="botao" id="cancelar" onclick="window.location='produtos.html';">CANCELAR</button>
+    </section>
 </body>
-
 </html>
