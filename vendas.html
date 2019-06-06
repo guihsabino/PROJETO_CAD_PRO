@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/vendas.css">
+    <link rel="stylesheet" type="text/css" href="css/paginas_com_tabela.css">
 </head>
 
 <body>
@@ -37,63 +37,68 @@
 
     <!-- Seção de tabela -->
 
-    <table id="tabela-vendas">
-        <thead id="thead-vendas">
-            <tr>
-                <th> COD. VENDA </th>
-                <th> VENDEDOR </th>
-                <th> DATA </th>
-                <th> VALOR TOTAL </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th class="cod_vendedor">000001</th>
-                <td>Joelma Mendes</td>
-                <td>25/10/2018</td>
-                <td>R$1530</td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="cod_vendedor"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-        <button class="botao-venda" id="efetuar-venda" onclick="window.location='efetuarVenda.html';">EFETUAR VENDA</button>
-        <button class="botao-venda" id="alterar" onclick="window.location='alterarVenda.html';">ALTERAR</button>
-        <button class="botao-venda" id="excluir" onclick="window.location='excluirVenda.html';">EXCLUIR</button>
-    </table>
+    <section id="section-tabela">
+        <table id="table-vendas">
+            <thead id="thead-vendas">
+                <tr>
+                    <th> COD. VENDA </th>
+                    <th> VENDEDOR </th>
+                    <th> DATA </th>
+                    <th> VALOR TOTAL </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="cod_vendedor">000001</th>
+                    <td>Joelma Mendes</td>
+                    <td>25/10/2018</td>
+                    <td>R$1530</td>
+                </tr>
+                <tr>
+                    <th class="cod_vendedor"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="cod_vendedor"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="cod_vendedor"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="cod_vendedor"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="cod_vendedor"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="cod_vendedor"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="section-botoes">
+        <button class="botao" id="efetuar-venda" onclick="window.location='efetuarVenda.html';">EFETUAR
+            VENDA</button>
+        <button class="botao" id="alterar" onclick="window.location='alterarVenda.html';">ALTERAR</button>
+        <button class="botao" id="excluir" onclick="window.location='excluirVenda.html';">EXCLUIR</button>
+    </section>
 </body>
 
 </html>

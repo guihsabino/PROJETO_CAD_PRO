@@ -1,6 +1,4 @@
-/* Seção para barra de navegação lateral */
-
-ul {
+#nav {
     margin: 5% 1%;
     padding: 0.5% 2%;
     list-style: none;
@@ -18,17 +16,22 @@ ul {
 
 h1 {
     text-align: center;
-    position: relative;
-    top: 1em;
+    margin-top: 5%;
 }
 
 /* Seção de tabela */
 
+#section-tabela {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
 table {
     position: relative;
     text-align: center;
-    left: 20em;
-    bottom: 28em;
+    left: 25%;
+    margin: 1%;
     box-sizing: border-box;
     border-collapse: collapse;
 }
@@ -58,63 +61,18 @@ table td {
     border: 1px solid #CCC;
 }
 
-#table-produto {
-    position: relative;
-    text-align: center;
-    left: 20em;
-    bottom: 26em;
-    box-sizing: border-box;
-    border-collapse: collapse;
-}
-
-#table-produto thead {
-    background-color: rgba(71, 68, 68, 0.973);
-    text-align: center;
-    color: #FFF;
-}
-
-#table-produto th {
-    border: 1px solid #CCC;
-    padding: 10px;
-}
-
-#table-produto tr {
-    border: 1px solid #CCC;
-    width: 180px;
-    height: 40px;
-    padding: 10px;
-}
-
-#table-produto td {
-    width: 180px;
-    height: 40px;
-    padding: 10px;
-    border: 1px solid #CCC;
-}
-
 /* Seção de Botões */
 
 .botao {
     position: relative;
-    top: 35px;
-    left: 320px;
+    top: 80px;
+    left: 30%;
     height: 40px;
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: 1%;
 }
 
 .botao:hover, .botao:focus {
     color: red;
-}
-
-#cadastrar {
-    left: 330px;
-}
-
-#alterar {
-    left: 380px;
-}
-
-#excluir {
-    left: 430px;
 }

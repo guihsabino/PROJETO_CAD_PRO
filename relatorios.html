@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/vendas.css">
+    <link rel="stylesheet" type="text/css" href="css/relatorios.css">
 </head>
 
 <body>
@@ -36,24 +36,29 @@
     </nav>
 
     <!-- Selção de Relatórios -->
-    <label id="nome-vendedor">NOME VENDEDOR</label>
-    <input type="input" id="input-nome">
-
-    <!-- Seção de calendário -->
-    <section>
-        <label id="data-relatorio">DATA</label>
-        <input type="date" id="input-data">
+    <section id="section-relatorio">
+        <div id="vendedor">
+            <label id="nome-vendedor">NOME VENDEDOR</label>
+            <input type="input" id="input-nome">
+        </div>
+        <div id="data">
+            <!-- Seção de calendário -->
+            <label id="data-relatorio">DATA</label>
+            <input type="date" id="input-data">
+        </div>
+        <div id="combo">
+            <!-- Combo box -->
+            <select id="combo-vendedor">
+                <option value="funcao">Selecione a função</option>
+                <option value="comissao">COMISSÃO</option>
+                <option value="vendas">VENDAS</option>
+            </select>
+        </div>
+        <div id="section-botoes">
+            <!-- Botões -->
+            <button class="botao" id="gerar">GERAR RELATÓRIO</button>
+        </div>
     </section>
-
-    <!-- Combo box -->
-    <select id="combo-vendedor">
-        <option value="funcao">Selecione a função</option>
-        <option value="comissao">COMISSÃO</option>
-        <option value="vendas">VENDAS</option>
-    </select>
-
-    <!-- Botões -->
-    <button class="botao" id="gerar">GERAR RELATÓRIO</button>
 </body>
 
 </html>
