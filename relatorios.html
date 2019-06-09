@@ -38,8 +38,9 @@
     <!-- Selção de Relatórios -->
     <section id="section-relatorio">
         <div id="gerador">
-            <label id="nome-gerador">DIGITE SEU NOME</label>
-            <input type="input" id="input-nome">
+            <label id="nome-gerador">Esta página é designada para gerar relatórios,<br />
+                à partir das informações registradas
+                em sistema.</label>
         </div>
         <div id="data">
             <!-- Seção de calendário -->
@@ -50,14 +51,14 @@
             <!-- Combo box -->
             <select id="combo-vendedor">
                 <option value="funcao">Selecione a função</option>
-                <option value="vendas">VENDAS</option>
+                <option value="vendas" id="vendas">VENDAS</option>
                 <option value="vendedores">VENDEDORES</option>
                 <option value="produtos">PRODUTOS</option>
             </select>
         </div>
         <div id="section-botoes">
             <!-- Botões -->
-            <button class="botao" id="gerar">GERAR RELATÓRIO</button>
+            <button class="botao" id="gerar" onclick="exportaExcel()">GERAR RELATÓRIO</button>
             <script src="js/relatorios.js"></script>
         </div>
     </section>
