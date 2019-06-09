@@ -37,8 +37,8 @@
 
     <!-- Selção de Relatórios -->
     <section id="section-relatorio">
-        <div id="vendedor">
-            <label id="nome-vendedor">NOME VENDEDOR</label>
+        <div id="gerador">
+            <label id="nome-gerador">DIGITE SEU NOME</label>
             <input type="input" id="input-nome">
         </div>
         <div id="data">
@@ -50,15 +50,16 @@
             <!-- Combo box -->
             <select id="combo-vendedor">
                 <option value="funcao">Selecione a função</option>
-                <option value="comissao">COMISSÃO</option>
                 <option value="vendas">VENDAS</option>
+                <option value="vendedores">VENDEDORES</option>
+                <option value="produtos">PRODUTOS</option>
             </select>
         </div>
         <div id="section-botoes">
             <!-- Botões -->
             <button class="botao" id="gerar">GERAR RELATÓRIO</button>
+            <script src="js/relatorios.js"></script>
         </div>
     </section>
 </body>
-
 </html>
